@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/stylesForm.css">
+</head>
+<body>
+    <header>
+        <img src="./images/Logo_sans_nom.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html"><strong>Contact</strong></a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="" method="get">
+            <div>
+                <label for="name">Votre nom: </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="email">Votre email: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="age">Votre Age: </label>
+                <input type="number" name= "age" id="age" min="14" max="100">
+            </div>
+            <div>
+                <label for="question">Votre Question: </label>
+                <input type="text" name="question" id="question">
+            </div>
+            <div>
+                <label for="rates">Votre Note: (0-5)</label>
+                <input type="range" name="rated" id="phone" min="0" max="5" step="1" value="3" list="tickmarks">
+                <datalist id=tickmarks>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </datalist>
+            </div>
+            <div>
+                <input formaction='contactResult.html'" type="submit" value="Envoyez!">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li>Copyright © Kenneth Pillet</li>
+        </ul>
+    </footer>
+</body>
+</html>
