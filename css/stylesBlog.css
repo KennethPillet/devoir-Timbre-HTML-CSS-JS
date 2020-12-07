@@ -46,7 +46,7 @@ aside{
 aside div{
     margin-top: 1em;
 }
-#down{
+#down{ /* la flèche qui sert à remonter plus vite */
     position: fixed;
     right: 5vw;
     bottom: 5vh;

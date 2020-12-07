@@ -21,7 +21,7 @@ h1{
 }
 p{
     font-family: 'Special Elite', cursive;
-}a
+}
 aside{
     width: 30%;
 }
@@ -33,4 +33,7 @@ aside img{
 .thankYou{ 
     width: 100vw; /* redimensionne à la largeur à la taille de la page d'écran */
     height: 100vh; /* pareil mais pour la hauteur */
+}
+.gap{
+    margin-bottom: 2em;
 }
