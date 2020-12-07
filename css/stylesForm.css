@@ -36,5 +36,5 @@ input {
     border: 1px solid #999;
 }
 #question{
-    height: 100px;
+    height: 100px; /* redimensionne la text area de questions*/
 }

@@ -9,13 +9,10 @@ main{
     display: flex;
 }
 section, header{
-
     background-color: white;
-    
 }
 section{
     width: 80%;
-    overflow: scroll;
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -23,7 +20,7 @@ section{
 section div {
     margin-top: 2em;
 }
-section div p{
+section div p{ /* selectionne tout les p dans les Div de la section */
     margin-top: 1em;
     padding: 1em;
 }
@@ -34,11 +31,11 @@ section div p{
 }
 .right{
     width:50%;
-    float: right;
+    float: right; /* va mettre sur la droite l'image */
     margin: 1em;
 }
-#eme2 img{
-    height: 80%;
+#eme2 img{ /* selectionne tout les img dans l'id eme2 */
+    height: 80%; 
     width: auto;
 }
 aside{
